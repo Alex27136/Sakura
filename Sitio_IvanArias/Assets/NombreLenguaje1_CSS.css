@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.fondo_pantalla{
+    width: 100%;
+    
+}
+.cuerpo{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+}
+
