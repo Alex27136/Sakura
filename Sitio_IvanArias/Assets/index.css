@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&family=Lobster&family=Lobster+Two&family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background: radial-gradient(circle at 47.52% 35.92%, #ffffff 0,
+    #ffffff 16.67%, #fffefd 33.33%, #f1f0f0 50%, #d8e2e1 66.67%,
+    #c3d6d3 83.33%, #b0cbc5 100%);
+    --bg-banner: #202c33;
+    --bg-active: radial-gradient(circle at 45.2% 36.82%, #eaffff 0,
+    #d4ffff 16.67%, #b8ffff 33.33%, #95fff8 50%, #6fecea 66.67%, #46dce1 83.33%, #00d0db 100%);
+}
+
+body {
+    height:auto;
+    font-family: Garamond;
+    background-image: var(--background);
+    overflow-y: scroll;
+}
+
+.general{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+    overflow: hidden;
+    background-image: var(--background);
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--bg-banner);
+    left: 0;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-image: var(--background);
+    cursor: pointer;
+}
+
+.active{
+    background-image: var(--bg-active);
+    color: black;
+}
+
+.repositorio{
+    color:black;
+}
+
+li a:hover{
+    color:black;
+}
+
+
+.content{
+    margin-top: 55px;
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    background-color: var(--bg-banner);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+h1{
+    color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.ul2 {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: var(--bg-banner);
+    left: 0;
+}
+
+.redes{
+    width: 50%;
+    height: 30px;
+    background-color: var(--bg-banner);
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 9px 3px 10px rgba(0, 0, 30, 0.3);
+    transition: width 0.5;
+}
+
+.redes a:link{
+    color: rgb(67, 177, 23);
+    text-decoration: none;
+}
+
+.redes a:visited{
+    color: rgb(255, 255, 255);
+}
+
+.redes a:hover{
+    color: crimson;
+}
+
+.redes a:active{
+    color: rgb(92, 211, 92);
+}
