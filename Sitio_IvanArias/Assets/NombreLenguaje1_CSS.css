@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&family=Lobster&family=Lobster+Two&family=Ubuntu:wght@300&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
+
+:root {
+    --background: radial-gradient(circle at 47.52% 35.92%, #ffffff 0,
+    #ffffff 16.67%, #fffefd 33.33%, #f1f0f0 50%, #d8e2e1 66.67%,
+    #c3d6d3 83.33%, #b0cbc5 100%);
+    --bg-banner: #202c33;
+    --bg-active: radial-gradient(circle at 45.2% 36.82%, #eaffff 0,
+    #d4ffff 16.67%, #b8ffff 33.33%, #95fff8 50%, #6fecea 66.67%, #46dce1 83.33%, #00d0db 100%);
+}
+
+body {
+    font-family: Garamond;
+    background-image: var(--background);
+}
+
 .fondo{
     width: 100vw;
     height: 100vh;
@@ -14,83 +31,130 @@
     margin: 30px 0 0 30px;
     width: 95%;
     height: 90%;
-    
     position: absolute;
-
 }
 .barra{
-    border:1px solid  blueviolet;
     width: 100%;
-    height: 10%;
     margin: 0px 0 0 0px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: var(--bg-banner);
+    left: 0;
 }
 .contenido{
-    
     width: 100%;
-    height: 90%;
-
+    height: 100%;
 }
 .titulo_foto{
-    
     width: 100%;
-    height: 30%;
-
+    height: 40%;
+    display:inline-block;
+}
+.titulo_contenido{
+    background-color: grey;
+    width: 70%;
+    height: 100%;
+    display:inline-block
+}
+.autor_fecha{
+    background-color: black;
+    width: 29%;
+    height: 100%;
+    display:inline-block
 }
 .texto_entradas{
-    
     width: 100%;
-    height: 70%;
-    display: flex;
+    height: 59%;
+    display:inline-block;
 }
 .texto{
-
-    width: 75%;
+    background-color: blue;
+    width: 70%;
     height: 100%;
-
+    display:inline-block;
 }
 .entradas{
-    
-    width: 25%;
-    height: 100%;
-
+    width: 29%;
+    height: 40%;
+    display:inline-block;
 }
 .ultimas_entradas{
-    
+    background-color: blue;
     width: 100%;
-    height: 33%;
+    height: 43%;
+    display:inline-block;
 }
 .last_entrada{
-   
     width: 100%;
     height: 66%;
+    display:inline-block;
+
 }
 .entrada{
-   
     width: 100%;
-    height: 50%;
-    display: flex;
+    height: 100%;
+    display:inline-block;
 }
 .foto{
-    border:1px solid  yellow;
-    width: 40%;
-    height: 80%;
+    background-color: gray;
+    width: 30%;
+    height: 100%;
+    display:inline-block;
 }
 .titulo_fecha{
-    border:1px solid  red;
-    width: 60%;
-    height: 80%;
+    background-color: red;
+    width: 68%;
+    height:100%;
+    display:inline-block;
+
+
 }
 .titulo{
     border:1px solid  green;
     width: 100%;
-    height: 50%;
+    height: 48%;
 }
 .fecha{
     border:1px solid  blue;
     width: 100%;
-    height: 50%;
+    height: 48%;
 
 }
+.active{
+    background-image: var(--bg-active);
+    color: black;
+}
 
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-image: var(--background);
+    cursor: pointer;
+}
+.active{
+    background-image: var(--bg-active);
+    color: black;
+}
+
+.repositorio{
+    color:black;
+}
+
+li a:hover{
+    color:black;
+}
 
 
