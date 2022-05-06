@@ -28,10 +28,10 @@ body {
 }
 .cuerpo{
     background-color: white;
+    bottom: -6.9%;
     margin: 30px 0 0 30px;
-    width: 95%;
-    height: 90%;
-    position: absolute;
+    width: 93%;
+    height: 100%;
 }
 .barra{
     width: 100%;
@@ -47,6 +47,7 @@ body {
 .contenido{
     width: 100%;
     height: 100%;
+    display: inline-block;
 }
 .titulo_foto{
     width: 100%;
@@ -54,44 +55,79 @@ body {
     display:inline-block;
 }
 .titulo_contenido{
-    background-color: grey;
     width: 70%;
     height: 100%;
-    display:inline-block
+    display:inline-block;
 }
-.autor_fecha{
-    background-color: black;
-    width: 29%;
-    height: 100%;
-    display:inline-block
+.titulo_entrada{
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+    text-align: justify;
+    display:inline-block;
+}
+.titulo_texto{
+    font-size: 250%;
+    width: 100%;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    display:inline-block;
+}
+.autor_entrada{
+    font-size: 30%;
+    height: 10%;
+    width: 100%;
+    display:inline-block;
+}
+.entrada_foto{
+    width: 265px;
+    height: 265px;
+    display:inline-block;
+    background-repeat:no-repeat;
+    background:url(../Images/j.png);
+    background-size:80%;
 }
 .texto_entradas{
+    height: 70%;
     width: 100%;
-    height: 59%;
-    display:inline-block;
+    display:flex;
 }
 .texto{
-    background-color: blue;
+    font-size: 150%;
     width: 70%;
     height: 100%;
     display:inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.texto_texto{
+    font-size: 130%;
+    width: 90%;
+    height: 90%;
+    display:inline-block;
+    justify-content: center;
+    text-align: justify;
 }
 .entradas{
     width: 29%;
     height: 40%;
-    display:inline-block;
+    top: 10%;
+    display: inline-block;
+    justify-content: center;
+    text-align: justify;
 }
 .ultimas_entradas{
-    background-color: blue;
     width: 100%;
-    height: 43%;
-    display:inline-block;
+    height: 23%;
+    display: inline-block;
+    justify-content: center;
+    text-align: justify;
 }
 .last_entrada{
     width: 100%;
     height: 66%;
-    display:inline-block;
-
+    display: inline-block;
 }
 .entrada{
     width: 100%;
@@ -99,24 +135,29 @@ body {
     display:inline-block;
 }
 .foto{
-    background-color: gray;
     width: 30%;
     height: 100%;
     display:inline-block;
+    background-repeat:no-repeat;
+    background:url(../Images/j.png);
+    background-size:80%;
 }
 .titulo_fecha{
     background-color: red;
     width: 68%;
     height:100%;
     display:inline-block;
-
-
 }
 .titulo{
     border:1px solid  green;
     width: 100%;
     height: 48%;
 }
+.titulo_titulo{
+    width: 100%;
+    height: 100%;
+}
+
 .fecha{
     border:1px solid  blue;
     width: 100%;
