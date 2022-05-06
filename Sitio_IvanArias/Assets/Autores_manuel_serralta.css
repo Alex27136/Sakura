@@ -30,3 +30,112 @@ div.pie{
     text-shadow: 2px 2px 5px purple;
     padding: 10px;
 }
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&family=Lobster&family=Lobster+Two&family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    float: left;
+}
+.cuerpo{
+    background-color: white;
+    margin: 30px 0 0 30px;
+    width: 95%;
+    height: 90%;
+    
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+:root {
+    --background: radial-gradient(circle at 47.52% 35.92%, #ffffff 0,
+    #ffffff 16.67%, #fffefd 33.33%, #f1f0f0 50%, #d8e2e1 66.67%,
+    #c3d6d3 83.33%, #b0cbc5 100%);
+    --bg-banner: #202c33;
+    --bg-active: radial-gradient(circle at 45.2% 36.82%, #eaffff 0,
+    #d4ffff 16.67%, #b8ffff 33.33%, #95fff8 50%, #6fecea 66.67%, #46dce1 83.33%, #00d0db 100%);
+}
+
+body {
+    height:auto;
+    font-family: Garamond;
+    background-image: var(--background);
+    overflow-y: scroll;
+}
+
+.general{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items: center;
+    overflow: hidden;
+    background-image: var(--background);
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--bg-banner);
+    left: 0;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-image: var(--background);
+    cursor: pointer;
+}
+
+.active{
+    background-image: var(--bg-active);
+    color: black;
+}
+
+.repositorio{
+    color:black;
+}
+
+li a:hover{
+    color:black;
+}
+
+
+.content{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    background-color: var(--bg-banner);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}

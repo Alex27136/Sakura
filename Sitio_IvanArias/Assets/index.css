@@ -18,7 +18,9 @@
     
     position: absolute;
 }
-
+a{
+    text-decoration: none;
+}
 :root {
     --background: radial-gradient(circle at 47.52% 35.92%, #ffffff 0,
     #ffffff 16.67%, #fffefd 33.33%, #f1f0f0 50%, #d8e2e1 66.67%,
