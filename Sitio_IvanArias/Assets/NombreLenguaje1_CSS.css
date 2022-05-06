@@ -2,18 +2,95 @@
     padding: 0;
     margin: 0;
 }
-.body{
+.fondo{
     width: 100vw;
     height: 100vh;
     display: flex;
-}
-.fondo_pantalla{
-    width: 100%;
-    
+    background-color: black;
+    float: left;
 }
 .cuerpo{
-    width: 50%;
-    height: 50%;
-    background-color: black;
+    background-color: white;
+    margin: 30px 0 0 30px;
+    width: 95%;
+    height: 90%;
+    
+    position: absolute;
+
 }
+.barra{
+    border:1px solid  blueviolet;
+    width: 100%;
+    height: 10%;
+    margin: 0px 0 0 0px;
+}
+.contenido{
+    
+    width: 100%;
+    height: 90%;
+
+}
+.titulo_foto{
+    
+    width: 100%;
+    height: 30%;
+
+}
+.texto_entradas{
+    
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.texto{
+
+    width: 75%;
+    height: 100%;
+
+}
+.entradas{
+    
+    width: 25%;
+    height: 100%;
+
+}
+.ultimas_entradas{
+    
+    width: 100%;
+    height: 33%;
+}
+.last_entrada{
+   
+    width: 100%;
+    height: 66%;
+}
+.entrada{
+   
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.foto{
+    border:1px solid  yellow;
+    width: 40%;
+    height: 80%;
+}
+.titulo_fecha{
+    border:1px solid  red;
+    width: 60%;
+    height: 80%;
+}
+.titulo{
+    border:1px solid  green;
+    width: 100%;
+    height: 50%;
+}
+.fecha{
+    border:1px solid  blue;
+    width: 100%;
+    height: 50%;
+
+}
+
+
 
